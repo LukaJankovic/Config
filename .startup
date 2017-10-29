@@ -1,0 +1,5 @@
+alias calcurse="sh ~/Documents/Shell/calcurse-googlecal"
+alias messenger="messer ~/.messer.json"
+
+export PS1="$ "
+export SC_CLIENT_ID=a7e068b3d94af622df07c90b59206be1 soundcloud2000
