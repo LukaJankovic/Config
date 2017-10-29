@@ -1,4 +1,6 @@
 alias calcurse="sh ~/Documents/Shell/calcurse-googlecal"
 alias messenger="messer ~/.messer.json"
 
+export PATH=$PATH:/Users/luka/Binaries/
+
 export PS1="$ "
