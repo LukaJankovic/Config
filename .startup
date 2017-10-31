@@ -4,3 +4,6 @@ alias messenger="messer ~/.messer.json"
 export PATH=$PATH:/Users/luka/Binaries/
 
 export PS1="$ "
+export RPROMPT="%h"
+
+clear
