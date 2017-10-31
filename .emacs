@@ -92,6 +92,8 @@
 (set-face-foreground 'linum "Blue")
 
 (setq-default mode-line-format nil)
+;; (set-face-foreground 'mode-line "Blue")
+;; (set-face-foreground 'mode-line-inactive "Blue")
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.

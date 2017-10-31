@@ -89,5 +89,7 @@ source $ZSH/oh-my-zsh.sh
 #POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(user dir)
 #POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(dir_writable history os_icon)
 
-autoload -U promptinit; promptinit
-prompt pure
+# autoload -U promptinit; promptinit
+# prompt pure
+
+source ~/.startup
