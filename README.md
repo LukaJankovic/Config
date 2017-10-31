@@ -7,3 +7,4 @@ Also required:
 * https://github.com/caiogondim/maglev
 * https://github.com/tmux-plugins/tpm#installing-plugins
 * https://github.com/robbyrussell/oh-my-zsh
+* https://github.com/zsh-users/zsh-autosuggestions
