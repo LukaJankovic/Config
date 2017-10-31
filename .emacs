@@ -83,11 +83,15 @@
 (global-set-key (kbd "M-p") 'mc/mark-previous-like-this)
 (global-set-key (kbd "M-a") 'mc/mark-all-like-this)
 
+(global-set-key (kbd "M-C-h") 'kill-whole-line)
+
 (global-eldoc-mode -1)
 
 (global-linum-mode t)
 (setq linum-format "%4d \u2502 ")
 (set-face-foreground 'linum "Blue")
+
+(setq-default mode-line-format nil)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
