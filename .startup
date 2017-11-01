@@ -3,7 +3,7 @@ alias messenger="messer ~/.messer.json"
 
 export PATH=$PATH:/Users/luka/Binaries/
 
-export PS1="%m | $ "
+export PS1="%{%F{blue}%}%m |%F{white}%} $ "
 export RPROMPT="%h"
 
 clear
