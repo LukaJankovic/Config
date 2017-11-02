@@ -646,9 +646,9 @@
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>1194 978 620 392 0 0 3008 1670 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>1636 989 796 473 0 0 3008 1670 </string>
+	<string>1636 1133 918 401 0 0 3008 1670 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>864 401 1424 1068 0 0 3008 1670 </string>
+	<string>46 428 1392 1068 0 0 3008 1670 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>409 237 600 467 0 0 3008 1692 </string>
 	<key>New Bookmarks</key>
@@ -656,6 +656,8 @@
 		<dict>
 			<key>ASCII Anti Aliased</key>
 			<true/>
+			<key>ASCII Ligatures</key>
+			<false/>
 			<key>Ambiguous Double Width</key>
 			<false/>
 			<key>Ansi 0 Color</key>
@@ -1451,7 +1453,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-10-30T23:21:45Z</date>
+	<date>2017-11-01T16:11:59Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>TerminalMargin</key>
