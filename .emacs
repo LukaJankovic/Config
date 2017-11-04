@@ -102,7 +102,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (rainbow-mode multiple-cursors win-switch projectile))))
+    (kotlin-mode rainbow-mode multiple-cursors win-switch projectile))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -117,3 +117,7 @@
 (set-face-attribute 'font-lock-keyword-face nil :foreground "magenta")
 (set-face-attribute 'font-lock-function-name-face nil :foreground "cyan")
 (set-face-attribute 'font-lock-variable-name-face nil :foreground "cyan")
+(set-face-attribute 'font-lock-type-face nil :foreground "green")
+
+;; Kotlin
+(setq kotlin-tab-width 4)
