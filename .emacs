@@ -86,7 +86,7 @@
 (global-set-key (kbd "M-C-h") 'kill-whole-line)
 
 (global-eldoc-mode -1)
-
+(global-set-key (kbd "M-l") 'global-linum-mode)
 (global-linum-mode t)
 (setq linum-format "%4d \u2502 ")
 (set-face-foreground 'linum "Blue")
@@ -121,3 +121,9 @@
 
 ;; Kotlin
 (setq kotlin-tab-width 4)
+
+(xterm-mouse-mode 1)
+
+(global-set-key [mouse-4] 'scroll-down-line)
+(global-set-key [mouse-5] 'scroll-up-line)
+
