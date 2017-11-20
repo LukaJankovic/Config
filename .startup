@@ -4,7 +4,7 @@ alias messenger="messer ~/.messer.json"
 export PATH=$PATH:/Users/luka/Binaries/
 export COCOAPODS_DISABLE_STATS='true'
 
-export PS1="%{%F{blue}%}%m │%F{white}%} $ "
+export PS1="%{%F{blue}%}%m │ %{%F{white}%}$ "
 export RPROMPT="%F{blue}%} │ %h"
 
 clear

@@ -102,7 +102,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (kotlin-mode rainbow-mode multiple-cursors win-switch projectile))))
+    (neotree kotlin-mode rainbow-mode multiple-cursors win-switch projectile))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -127,3 +127,17 @@
 (global-set-key [mouse-4] 'scroll-down-line)
 (global-set-key [mouse-5] 'scroll-up-line)
 
+;; Neotree
+
+(require 'neotree)
+(global-set-key [f8] 'neotree-toggle)
+(custom-set-faces
+ '(col-highlight ((t (:background "red"))))
+ '(hl-line ((t (:background "red"))))
+ '(lazy-highlight ((t (:background "black" :foreground "white" :underline t))))
+ '(neo-dir-link-face ((t (:foreground "cyan"))))
+ '(neo-file-link-face ((t (:foreground "white")))))
+(custom-set-variables)
+(autoload 'neotree "neotree" "" t) 
+(setq neo-window-width 40) 
+(setq neo-persist-show nil)
