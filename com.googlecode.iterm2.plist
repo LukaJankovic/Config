@@ -600,7 +600,7 @@
 	<key>LoadPrefsFromCustomFolder</key>
 	<true/>
 	<key>NSColorPanelMode</key>
-	<string>6</string>
+	<string>3</string>
 	<key>NSColorPickerPreferredRGBEntryMode</key>
 	<integer>2</integer>
 	<key>NSColorPickerSlidersDefaults</key>
@@ -610,7 +610,7 @@
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
 	<string>{712, 448}</string>
 	<key>NSNavPanelExpandedSizeForSaveMode</key>
-	<string>{712, 448}</string>
+	<string>{1580, 540}</string>
 	<key>NSNavPanelExpandedStateForSaveMode</key>
 	<true/>
 	<key>NSQuotedKeystrokeBinding</key>
@@ -623,8 +623,8 @@
 	<false/>
 	<key>NSSplitView Subview Frames NSColorPanelSplitView</key>
 	<array>
-		<string>0.000000, 0.000000, 408.000000, 404.000000, NO, NO</string>
-		<string>0.000000, 405.000000, 408.000000, 43.000000, NO, NO</string>
+		<string>0.000000, 0.000000, 408.000000, 440.000000, NO, NO</string>
+		<string>0.000000, 441.000000, 408.000000, 43.000000, NO, NO</string>
 	</array>
 	<key>NSTableView Columns v2 KeyBingingTable</key>
 	<data>
@@ -655,19 +655,21 @@
 		<integer>1</integer>
 	</dict>
 	<key>NSWindow Frame NSColorPanel</key>
-	<string>836 355 408 421 0 0 1920 1178 </string>
+	<string>687 293 408 421 0 0 1920 1177 </string>
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>942 110 912 456 0 0 1920 1178 </string>
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>947 373 599 388 0 0 1920 1178 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>542 535 796 473 0 0 1920 1177 </string>
+	<string>919 206 796 473 0 0 1920 1177 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>322 602 1576 554 0 0 1920 1177 </string>
+	<string>644 380 680 420 0 0 1920 1177 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>144 142 1320 858 0 0 1920 1178 </string>
+	<string>221 115 1552 954 0 0 1920 1200 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
-	<string>523 224 856 634 0 0 1920 1178 </string>
+	<string>721 894 376 260 0 0 1920 1177 </string>
+	<key>NSWindow Frame iTerm Window 3</key>
+	<string>322 605 1576 548 0 0 1920 1177 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1405,7 +1407,7 @@
 			<key>Visual Bell</key>
 			<true/>
 			<key>Window Type</key>
-			<integer>12</integer>
+			<integer>0</integer>
 			<key>Working Directory</key>
 			<string>/Users/luka</string>
 		</dict>
@@ -1472,7 +1474,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-11-19T14:46:53Z</date>
+	<date>2017-11-27T07:31:00Z</date>
 	<key>ShowBookmarkName</key>
 	<false/>
 	<key>TerminalMargin</key>
